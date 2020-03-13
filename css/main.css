@@ -1,0 +1,383 @@
+* { padding: 0;margin: 0;
+box-sizing: border-box;}
+body{
+  margin: 0;
+  
+}
+.clr{
+  clear: both;
+}
+
+
+header {
+  background-color: #f1f1f1;
+  padding: 35px;
+  text-align: center;
+}
+
+nav{
+  overflow: hidden;
+  background-color: #333; 
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}  
+
+footer{
+  position: relative;
+  background-color:maroon;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  
+}
+footer p{
+  font-size: : 10px;
+  color: white;
+  padding-top: 10px;
+
+}
+.empty_weight{
+  margin-top: 240px;
+}
+.empty_weight_forlogin{
+  margin-top: 20px;
+}
+
+.empty_weight_forregister{
+  margin-top: 100px;
+}
+
+
+/*  for login form */
+
+.login_image {
+
+background-image: url(../img/background/login.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+ 
+width:100%;
+border: 1px black solid;
+}
+
+.login {
+width: 350px;
+margin: 100px auto;
+ 
+}
+
+
+
+  input{
+  display: block;
+  padding: 5px;
+  width: 95%;
+  margin: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+p.error{
+
+background: red;
+color: white;
+padding: 10px; 
+margin: 5px;
+margin-right:10px;
+}
+
+p.info{
+
+background: green;
+color: white;
+padding: 10px; 
+margin: 5px;
+margin-right:10px;
+}
+
+p.info_del{
+
+background: orange;
+color: white;
+padding: 10px; 
+margin: 5px;
+margin-right:10px;
+}
+
+button{
+padding: 5px;
+margin: 5px;
+width:95%;
+box-sizing: border-box;
+
+}
+
+fieldset{
+padding: 5px;
+margin: 5px;
+ }
+fieldset label {
+padding: 5px;
+
+ }
+/* for register form */
+
+.container {
+  padding: 16px;
+   width: 100%;
+
+}
+
+.box{
+background: white;
+
+width: 456px;
+
+border-radius: 6px;
+
+margin: 0 auto 0 auto;
+
+padding: 0px 10px 70px 10px;
+
+border: #2980b9 1px solid;
+
+height: 1550px;
+}
+
+
+
+.box input[type=text], .box input[type=password], .box input[type=email] {
+width: 100%;
+
+padding: 15px;
+
+margin: 5px 0 22px 0;
+
+display: inline-block;
+
+border: none;
+
+background: #2ecc71;
+
+border-radius: 15px;
+
+height: 40px;}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+ 
+
+
+.box select{
+padding: 6px;
+
+margin: 5px 0 22px 0;
+
+display: block;
+
+border: none;
+
+background: #f1f1f1;
+
+width: 180px;
+
+height: 30px;
+border-radius: 10px;
+}
+
+.box select:focus{
+background-color: #ddd;
+outline: none;
+
+}
+.checkbox_areas{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* border: 1px red solid;*/
+
+}
+.checkbox_areas input[type=checkbox]{
+  width: 10%; 
+  display: inline-block;
+   
+}
+.checkbox_areas_sub{
+  margin: 5px;
+
+float: left;
+
+padding-left: 5px;
+
+border-right: 3px lightgray solid;
+
+border-top: 3px lightgray solid;
+
+border-left: 3px lightgray solid;
+
+display: inline-block;
+
+width: 190px;
+
+border-bottom: 3px lightgray solid;    
+border-radius: 7px;
+}
+.checkbox_areas_sub input[type=checkbox]{
+   float: right;
+}
+.checkbox_areas_sub{
+    
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+
+color: white;
+
+padding: 16px 20px;
+
+margin: 8px 0;
+
+border: none;
+
+cursor: pointer;
+
+width: 263px;
+
+opacity: 0.9;
+
+background: #3498db;
+
+border-radius: 5px;
+
+height: 48px;
+
+
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+/*For search page*/
+.search_containor1 {
+  padding: 16px;
+  /*border: 1px red solid;*/
+}
+
+.search_containor1 select{
+  padding: 15px;
+  margin: 50px 0 22px 0;
+  display:inline-block;
+  border: none;
+  background: #f1f1f1;
+  width: 200px;
+}
+
+.submit_button {
+  background-color: #4CAF50;
+  display: block;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px  auto;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  
+}
+
+.search_containor1 label{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  
+}
+
+/* for login page */
+
+.logged_user { 
+
+background: lightgray;
+overflow: auto;
+
+
+}
+
+
+.logged_user a{
+text-decoration: none;
+
+}
+
+.logged_user p{
+font-size: 25px;
+ 
+
+}
+
+
+/*  for search page*/
+
+
+table.table_view{
+  width:100%;
+  border-collapse: collapse;
+
+}
+
+/*table.table_view th{
+  background: #aaa;
+}*/
+
+table.table_view td{
+  padding: 10px;
+  border-bottom : 1px solid #aaa;
+  border-right  : 3px solid #aaa;*/
+}
+
+.search_info {
+  background: lightgray;
+  padding: 10px;
+  margin: 10px;
+
+}
+.search_info  p {
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 300px;
+}
+.search_info br {
+   
+}
