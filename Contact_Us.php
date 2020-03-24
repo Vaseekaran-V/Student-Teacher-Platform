@@ -75,15 +75,7 @@
         </div>
         
     </div>
-    <button type="button" onclick="hoverOverDiv()">Click Here to Change </button>
 
-    <script>
-        function hoverOverDiv(){
-            document.getElementById("contact").margin = "0 25% 0 25%";
-            document.getElementById("contact").background-color = "darkblue";
-            document.getElementById("contact").border-radius = "10px";
-        }
-    </script>
 </main>
 <div class="empty_weight"></div>
 <?php require_once('includes/footer.php'); ?>
